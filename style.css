@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: #0b0f1a;
+    overflow-x: hidden;
+}
+
+/* PORTAL PAGE */
+.portal-page .magic-circle {
+    width: 260px;
+    height: 260px;
+    border: 2px solid #ff7ee7;
+    border-radius: 50%;
+    margin: 80px auto 20px;
+    box-shadow: 0 0 20px #ff9df2;
+    animation: spin 8s linear infinite;
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+
+.portal-title {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+    text-shadow: 0 0 15px #ff7ee7;
+}
+
+.portal-subtitle {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.enter-button, .main-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    background: linear-gradient(135deg,#ff7ee7,#9f5aff);
+    box-shadow: 0 0 15px #ff7ee7;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* STAGE PAGES */
+.stage-page {
+    padding: 20px;
+    text-align: center;
+}
+
+.stage-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.task-card {
+    background: rgba(255,255,255,0.08);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(255,200,255,0.3);
+}
+
+.hidden { display: none; }
+
+/* TIC TAC TOE */
+.board {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.board div {
+    border: 1px solid #fff;
+    font-size: 40px;
+    line-height: 100px;
+    height: 100px;
+}
+
+/* CERTIFICATE */
+.certificate-page {
+    padding: 20px;
+    text-align: center;
+}
+
+.certificate-box {
+    background: #fff;
+    color: #000;
+    border-radius: 16px;
+    margin: 40px auto;
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* WARNING PAGE */
+.warning-text {
+    font-size: 30px;
+    padding: 20px;
+    color: #ff9df2;
+    text-shadow: 0 0 15px #ff7ee7;
+}
